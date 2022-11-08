@@ -92,7 +92,7 @@ class FormEditMahasiswaActivity : AppCompatActivity() {
     }
 
     private fun dateToString(year: Int, month: Int, dayofMonth: Int): String {
-        return year.toString()+"-"+(month+1)+""+dayofMonth.toString()
+        return year.toString()+"-"+(month+1)+"-"+dayofMonth.toString()
     }
 
     private fun dateDialog(context: Context, datePicker: DatePickerDialog.OnDateSetListener):DatePickerDialog {

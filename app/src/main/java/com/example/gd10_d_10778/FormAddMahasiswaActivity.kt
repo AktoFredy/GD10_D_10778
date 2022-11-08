@@ -66,7 +66,7 @@ class FormAddMahasiswaActivity : AppCompatActivity() {
     }
 
     private fun dateToString(year: Int, month: Int, dayofMonth: Int): String {
-        return year.toString()+"-"+(month+1)+""+dayofMonth.toString()
+        return year.toString()+"-"+(month+1)+"-"+dayofMonth.toString()
     }
 
 
